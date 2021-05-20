@@ -165,9 +165,7 @@ function drawMoon() {
   }
 }
 function endGame() {
-  buttonOne = createButton("Show Poem");
-  buttonOne.position(width / 2, height / 2);
-  buttonOne.mousePressed(directTo);
+
   noLoop();
 }
 
